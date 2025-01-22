@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 25%;
+    margin: 150px auto;
+    min-width: 200px;
+}
+
+.top {
+    display: flex;
+}
+
+.top .content {
+    width: 80%;
+    border: 1px solid #910000;
+    padding: 5px;
+    /* 外轮廓去掉 */
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.top .btn {
+    width: 20%;
+    border: 1px solid #910000;
+    background: #910000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.top .btn:hover {
+    box-shadow: 1px 1px 3px #910000;
+}
+
+table {
+    /* 设置表格边框是否合并collapse相邻的单元格共用一个边框  separate */
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+table thead tr {
+    background: #910000;
+    color: #fff;
+}
+
+table thead tr th {
+    padding: 5px;
+    font-size: 14px;
+}
+
+table tbody tr {
+    background: #eee;
+    font-size: 13px;
+}
+
+table tbody tr td {
+    padding: 5px;
+ 
+}
+
+table tbody tr:nth-child(odd) {
+    background: #ddd;
+}
+
+table tbody tr td input {
+    background: none;
+    border: 1px solid #910000;
+    padding: 2px 5px;
+    font-size: 13px;
+    color: #910000;
+    /* 鼠标样式 */
+    cursor: pointer;
+}
+
+table tbody tr td input:hover {
+    box-shadow: 1px 1px 3px #910000;
+}
